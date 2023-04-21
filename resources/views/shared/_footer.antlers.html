@@ -1,0 +1,65 @@
+<footer
+  x-data="{ set: () => {
+    const main = document.getElementById('main')
+    const mainBottom = main.offsetTop + main.offsetHeight
+    const footerHeight = $el.offsetHeight
+    const winH = window.innerHeight
+
+    if (mainBottom + footerHeight < winH) {
+      $el.style.marginTop = winH - (mainBottom + footerHeight) + 'px'
+    } else {
+      $el.style.marginTop = 0
+    }
+  }}"
+  x-init="set()"
+  @resize.window="set()"
+  class="relative z-10 pt-16"
+>
+  <div class="bg-white">
+    <!-- <div class="wrap-xl px-4"><div class="border-b-3 border-grey"></div></div> -->
+    <div class="flex items-center wrap-xl py-8">
+      {{ general:logos }}
+      <div class="px-4">
+        <img class="inline-block" src="{{ glide:url w="128" q="90" }}">
+      </div>
+      {{ /general:logos }}
+    </div>
+  </div>
+
+  <div class="py-8 text-white bg-black">
+    <div class="flex wrap-xl">
+      <div class="lg:w-1/4 px-4">
+        <div class="hidden md:block mb-4 pb-4"><h4 class="font-brand font-semibold">Address</h4><div class="border-b-3 border-white opacity-10"></div></div>
+        <div>
+          <p class="mb-8 hover:underline"><a href="https://goo.gl/maps/YDGGJZXKajWzhJ6Z6" target="_blank">6th Floor,<br>New Kings Beam House,<br>22 Upper Ground,<br>London, SE1 9PD</a></p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 px-4">
+        <div class="hidden md:block mb-4 pb-4"><h4 class="font-brand font-semibold">Contact</h4><div class="border-b-3 border-white opacity-10"></div></div>
+        <div>
+          <p class="hover:underline"><a href="https://goodinnovation.co.uk" target="_blank">www.goodinnovation.co.uk</a></p>
+          <p class="hover:underline"><a href="mailto:hello@goodinnovation.co.uk">hello@goodinnovation.co.uk</a></p>
+          <p class="hover:underline"><a href="tel:+442033974180">020 3397 4180</a></p>
+          <div class="flex pt-2">
+            <a class="inline-block hover:text-red" href="{{ site_settings:twitter }}" target="_blank">
+              {{ partial:svg/tw classes="w-6 h-6" }}
+            </a>
+            <a class="inline-block ml-6 hover:text-red" href="{{ site_settings:linkedin }}" target="_blank">
+              {{ partial:svg/in classes="w-6 h-6" }}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/4 px-4">
+        <div class="hidden md:block mb-4 pb-4"><h4 class="font-brand font-semibold opacity-0">Good</h4><div class="border-b-3 border-white opacity-10"></div></div>
+      </div>
+      <div class="lg:w-1/4 px-4 text-right">
+        <div class="hidden md:block mb-4 pb-4"><h4 class="font-brand font-semibold opacity-0">Innovation</h4><div class="border-b-3 border-white opacity-10"></div></div>
+        <div class="text-right">
+          {{ partial:svg/bcorp class="inline-block ml-auto w-10" }}
+          <p class="pt-4">© {{ now format="Y" }} <a class="hover:underline" href="https://goodinnovation.co.uk" target="_blank">Good Innovation</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

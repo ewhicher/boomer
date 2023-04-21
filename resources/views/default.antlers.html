@@ -1,0 +1,77 @@
+{{ section:nav }}
+  <p class="font-bold typeset-minor uppercase text-grey-dark">
+    <a class="hover:underline" href="/">Home</a> / <span class="text-black">{{ title }}</span>
+  </p>
+{{ /section:nav }}
+
+<section class="pt-8 pb-8">
+  <div class="flex wrap-lg pb-2">
+    <div class="px-4">
+      {{ if slug == 'mindsets' }}
+      <a class="text-red typeset-minor hover:underline" href="/understand">< back to understand</a>
+      {{ else }}
+      <a class="text-red typeset-minor hover:underline" href="/">< back to start</a>
+      {{ /if }}
+    </div>
+    <div class="ml-auto px-4">
+      <a
+        class="text-red typeset-minor hover:underline"
+        {{ if slug == 'understand' || slug == 'mindsets' }}
+          href="/plan">Plan >
+        {{ elseif slug == 'plan'}}
+          href="/talk">Talk >
+        {{ elseif slug == 'talk'}}
+          href="/build">Build >
+        {{ elseif slug == 'build'}}
+          href="/innovation-generator">Innovation Generator >
+        {{ else }}
+         href="">
+        {{ /if }}
+      </a>
+    </div>
+  </div>
+  <div class="wrap-lg px-4">
+    <h1 class="typeset-title mb-[.5em]">
+      {{ if slug == 'mindsets' }}Generation Z {{ /if }}
+      <span class="text-red">{{ if slug != 'understand-frameworks' }}{{ title }}{{ else }}Understand{{ /if }}</span>
+      {{ if slug == 'understand' }} Generation Z{{ /if }}
+      {{ if slug == 'understand-frameworks' }} Generation Z{{ /if }}
+      {{ if slug == 'talk' }} to Generation Z{{ /if }}
+      {{ if slug == 'plan' }} for Generation Z{{ /if }}
+      {{ if slug == 'build' }} something for Generation Z{{ /if }}
+    </h1>
+  </div>
+  <div class="wrap-lg px-4">
+    {{ text | classify }}
+  </div>
+</section>
+
+<section class="pb-8">
+  <div class="wrap-lg px-4">
+    {{ if link_entry }}
+      <div class="pb-8">
+        <a
+          class="block relative"
+          href="{{ link_entry }}"
+          target="_blank"
+          x-data="{ hover: false }"
+          @mouseenter="hover = true"
+          @mouseleave="hover = false"
+        >
+          <img class="block relative z-10 w-full" src="{{ glide:link_image w="1280" q="80" }}">
+          <div
+            class="absolute inset-0 z-20 flex"
+            x-show="hover"
+            x-transition.opacity
+            x-cloak
+          >
+            <div class="absolute inset-0 bg-red opacity-40"></div>
+            <div class="m-auto">
+              <div class="btn-base btn-white">Download</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    {{ /if }}
+  </div>
+</section>

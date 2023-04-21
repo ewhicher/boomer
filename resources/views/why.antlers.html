@@ -1,0 +1,33 @@
+{{ section:nav }}
+  <p class="font-bold typeset-minor uppercase text-grey-dark">
+    <a class="hover:underline" href="/">Home</a> / <span class="text-black">{{ title }}</span>
+  </p>
+{{ /section:nav }}
+
+<section class="pt-16 pb-8">
+  <div class="wrap-lg px-4">
+    <h1 class="typeset-title mb-[.5em]">
+      <span class="text-red">Why</span> Generation Z matter for charitable causes
+    </h1>
+  </div>
+  <div class="wrap-lg px-4">
+    {{ text | classify }}
+  </div>
+</section>
+
+<section class="pb-8">
+  <div class="lg:flex lg:flex-wrap wrap-xl px-2">
+    {{ if images }}
+      {{ images }}
+        <div class="lg:w-1/2 p-2">
+          <img
+            class="block w-full cursor-pointer"
+            src="{{ glide:url w="640" q="90" }}"
+            x-data
+            @click="$dispatch('modal:image:open', {src: '{{ glide:url w="1280" q="90" }}' })"
+          >
+        </div>
+      {{ /images }}
+    {{ /if }}
+  </div>
+</section>

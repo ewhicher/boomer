@@ -1,0 +1,77 @@
+{{ section:nav }}
+  <p class="font-bold typeset-minor uppercase text-black opacity-0 visibility-hidden">Home</p>
+{{ /section:nav }}
+
+<section class="relative z-10 pt-8 pb-8">
+  <div class="wrap-xl px-4">
+    <p class="inline-block typeset-minor font-semibold uppercase bg-red/10 rounded-md px-3 py-1 text-red">
+      {{ partial:svg.chat class="inline-block align-middle w-6 h-6" }}
+      <span class="inline-block align-middle">Good conversations</span>
+    </p>
+    <h1 class="typeset-hero text-black">Generation Z Audience Toolkit</h1>
+  </div>
+</section>
+
+<section class="relative z-10">
+  <div class="flex flex-wrap wrap-xl">
+    <div class="w-full sm:w-1/2 lg:w-1/4 mb-4 sm:mb-8 px-4">
+      <a
+        class="card-base"
+        href="/understand"
+      >
+        <div class="flex h-32 bg-black p-4">
+          <p class="m-auto typeset-subheading font-semibold text-white">Understand</p>
+        </div>
+        <div class="p-4">
+          <p class="typeset-base">{{ understand_text | strip_tags:p }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full sm:w-1/2 lg:w-1/4 mb-4 sm:mb-8 px-4">
+      <a
+        class="card-base"
+        href="/plan"
+      >
+        <div class="flex h-32 bg-black p-4">
+          <p class="m-auto typeset-subheading font-semibold text-white">Plan</p>
+        </div>
+        <div class="p-4">
+          <p class="typeset-base">{{ plan_text | strip_tags:p }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full sm:w-1/2 lg:w-1/4 mb-4 sm:mb-8 px-4">
+      <a
+        class="card-base"
+        href="/talk"
+      >
+        <div class="flex h-32 bg-black p-4">
+          <p class="m-auto typeset-subheading font-semibold text-white">Talk</p>
+        </div>
+        <div class="p-4">
+          <p class="typeset-base">{{ talk_text | strip_tags:p }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full sm:w-1/2 lg:w-1/4 mb-4 sm:mb-8 px-4">
+      <a
+        class="card-base"
+        href="/build"
+      >
+        <div class="flex h-32 bg-black p-4">
+          <p class="m-auto typeset-subheading font-semibold text-white">Build</p>
+        </div>
+        <div class="p-4">
+          <p class="typeset-base">{{ build_text | strip_tags:p }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="relative z-10 pt-8 pb-8">
+  <div class="wrap-xl px-4">
+    <h2 class="typeset-heading mb-[.5em]">Only have five minutes to read?</h2>
+    <a class="btn-base btn-red" href="{{ download }}" target="_blank">{{ download_text }}</a>
+  </div>
+</section>

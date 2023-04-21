@@ -1,0 +1,74 @@
+{{ section:nav }}
+  <p class="font-bold typeset-minor uppercase text-grey-dark">
+    <a class="hover:underline" href="/">Home</a> / <span class="text-black">{{ title }}</span>
+  </p>
+{{ /section:nav }}
+
+<section class="pt-8 pb-8">
+  <div class="flex wrap-lg pb-2">
+    <div class="px-4">
+      <a class="text-red typeset-minor hover:underline" href="/">< back to start</a>
+    </div>
+    <div class="ml-auto px-4">
+      <a
+        class="text-red typeset-minor hover:underline"
+        {{ if slug == 'understand'}}
+          href="/plan">Plan >
+        {{ elseif slug == 'plan'}}
+          href="/talk">Talk >
+        {{ elseif slug == 'talk'}}
+          href="/build">Build >
+        {{ elseif slug == 'build'}}
+          href="/innovation-generator">Innovation Generator >
+        {{ /if }}
+      </a>
+    </div>
+  </div>
+  <div class="wrap-lg px-4">
+    <h1 class="typeset-title mb-[.5em]"><span class="text-red">{{ title }}</span> Generation Z</h1>
+  </div>
+</section>
+
+<section>
+  <div class="flex flex-wrap justify-center wrap-lg">
+    <div class="w-full sm:w-1/2 lg:w-1/3 mb-4 sm:mb-8 px-4">
+      <a
+        class="card-base"
+        href="/mindsets"
+      >
+        <div class="flex h-32 bg-black p-4">
+          <p class="m-auto typeset-subheading font-semibold text-white">Mindsets</p>
+        </div>
+        <div class="p-4">
+          <p class="typeset-base">{{ mindset_text | strip_tags:p }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full sm:w-1/2 lg:w-1/3 mb-4 sm:mb-8 px-4">
+      <a
+        class="card-base"
+        href="/innovation-generator"
+      >
+        <div class="flex h-32 bg-black p-4">
+          <p class="m-auto typeset-subheading font-semibold text-white text-center">Innovation Generator</p>
+        </div>
+        <div class="p-4">
+          <p class="typeset-base">{{ game_text | strip_tags:p }}</p>
+        </div>
+      </a>
+    </div>
+    <div class="w-full sm:w-1/2 lg:w-1/3 mb-4 sm:mb-8 px-4">
+      <a
+        class="card-base"
+        href="/newsletters"
+      >
+        <div class="flex h-32 bg-black p-4">
+          <p class="m-auto typeset-subheading font-semibold text-white">Newsletters</p>
+        </div>
+        <div class="p-4">
+          <p class="typeset-base">{{ newsletters_text | strip_tags:p }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

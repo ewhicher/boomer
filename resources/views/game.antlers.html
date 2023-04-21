@@ -1,0 +1,114 @@
+{{ section:nav }}
+  <p class="font-bold typeset-minor uppercase text-grey-dark">
+    <a class="hover:underline" href="/">Home</a> / <span class="text-black">{{ title }}</span>
+  </p>
+{{ /section:nav }}
+
+<section class="pt-8 pb-8">
+  <div class="flex wrap-xl pb-2">
+    <div class="px-4">
+      <a class="text-red typeset-minor hover:underline" href="/understand">< back to understand</a>
+    </div>
+    <div class="ml-auto px-4">
+      <a class="text-red typeset-minor hover:underline" href="/newsletters">
+        Newsletters >
+      </a>
+    </div>
+  </div>
+  <div class="wrap-xl px-4">
+    {{ text | classify }}
+  </div>
+  {{ if download_text }}
+  <div class="wrap-xl px-4 pt-8">
+    <a class="btn-base btn-red" href="{{ download }}" target="_blank">{{ download_text }}</a>
+  </div>
+  {{ /if }}
+</section>
+
+<section>
+  <div class="wrap-xl">
+    <div class="flex">
+      <div class="w-32 text-center"></div>
+      <div class="flex-1 p-4 text-center">
+        <p class="font-semibold uppercase text-center text-grey-dark">Donate</p>
+      </div>
+      <div class="flex-1 p-4 text-center">
+        <p class="font-semibold uppercase text-center text-grey-dark">Volunteer</p>
+      </div>
+      <div class="flex-1 p-4 text-center">
+        <p class="font-semibold uppercase text-center text-grey-dark">Fundraise</p>
+      </div>
+      <div class="flex-1 p-4 text-center">
+        <p class="font-semibold uppercase text-center text-grey-dark">Campaign</p>
+      </div>
+    </div>
+    <div class="flex">
+      <div class="flex w-32 p-4">
+        <p class="font-semibold uppercase text-center text-grey-dark my-auto">Occasional Superhero</p>
+      </div>
+      {{ collection:game row:is="Occasional Superhero" column:is="Donate" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Occasional Superhero" column:is="Volunteer" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Occasional Superhero" column:is="Fundraise" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Occasional Superhero" column:is="Campaign" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+    </div>
+    <div class="flex">
+      <div class="flex w-32 p-4">
+        <p class="font-semibold uppercase text-center text-grey-dark my-auto">Constant Champion</p>
+      </div>
+      {{ collection:game row:is="Constant Champion" column:is="Donate" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Constant Champion" column:is="Volunteer" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Constant Champion" column:is="Fundraise" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Constant Champion" column:is="Campaign" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+    </div>
+    <div class="flex">
+      <div class="flex w-32 p-4">
+        <p class="font-semibold uppercase text-center text-grey-dark my-auto">Crowd Follower</p>
+      </div>
+      {{ collection:game row:is="Crowd Follower" column:is="Donate" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Crowd Follower" column:is="Volunteer" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Crowd Follower" column:is="Fundraise" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Crowd Follower" column:is="Campaign" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+    </div>
+    <div class="flex">
+      <div class="flex w-32 p-4">
+        <p class="font-semibold uppercase text-center text-grey-dark my-auto">Benefit Seeker</p>
+      </div>
+      {{ collection:game row:is="Benefit Seeker" column:is="Donate" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Benefit Seeker" column:is="Volunteer" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Benefit Seeker" column:is="Fundraise" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+      {{ collection:game row:is="Benefit Seeker" column:is="Campaign" }}
+        {{ partial:components/game-card }}
+      {{ /collection:game }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,67 @@
+<div
+  class="relative z-50"
+  x-data="{ open: false }"
+>
+  <div class="wrap-xl flex items-center">
+    <div class="px-4 py-6">
+      <a href="/">
+        {{ partial:svg/logo class="w-24 md:w-32" }}
+      </a>
+    </div>
+    <div class="px-4 py-6">
+      <nav class="w-full max-w-screen-xl mx-auto p-4">
+        {{ slot }}
+      </nav>
+    </div>
+    <div class="flex items-center ml-auto px-4 py-6">
+      <div class="typeset-base font-semibold uppercase">
+        <a class="hover:underline" href="/why">Why Generation Z matter</a>
+      </div>
+      <div class="ml-8 typeset-base font-semibold uppercase">
+        <a class="hover:underline" href="/what">What we did</a>
+      </div>
+      <div class="ml-8 typeset-base font-semibold uppercase">
+        <a class="hover:underline" href="/who">Who we are</a>
+      </div>
+      <button type="button" class="ml-8 text-black pointer-events-auto" @click="open = !open">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="7.5" x2="40" y2="7.5" stroke="currentColor" stroke-width="3"/>
+          <line y1="19.5" x2="40" y2="19.5" stroke="currentColor" stroke-width="3"/>
+          <line y1="31.5" x2="40" y2="31.5" stroke="currentColor" stroke-width="3"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class="fixed top-0 left-0 right-0 z-50 pointer-events-none"
+    x-show="open"
+    x-cloak
+  >
+    <div class="wrap-xl relative z-20 flex items-center px-4 py-6">
+      <div class="mr-auto">
+        <a class="pointer-events-auto" href="/">
+          {{ partial:svg/logo class="w-24 md:w-32 text-white" }}
+        </a>
+      </div>
+      <button type="button" class="ml-auto text-black pointer-events-auto" @click="open = !open">
+        <svg x-show="open" class="text-white" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="5.79676" y1="34.0815" x2="34.081" y2="5.79719" stroke="currentColor" stroke-width="3"/>
+          <line x1="6.91808" y1="6.79719" x2="35.2024" y2="35.0815" stroke="currentColor" stroke-width="3"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="flex items-center fixed inset-0 z-10 bg-black pointer-events-auto">
+      <div class="wrap-md p-4">
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/">Home</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/understand">Understand</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/plan">Plan</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/talk">Talk</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/build">Build</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/innovation-generator">Innovation Generator</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/why">Why Generation Z matter</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/what">What we did</a></p>
+        <p class="my-[.5em] typeset-heading text-white"><a class="hover:underline" href="/who">Who we are</a></p>
+      </div>
+    </nav>
+  </div>
+</div>

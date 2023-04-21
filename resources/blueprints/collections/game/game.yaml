@@ -1,0 +1,137 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: back_text
+        field:
+          antlers: false
+          display: 'Back Text'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: popup_text
+        field:
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Popup Text'
+          type: bard
+          icon: bard
+          width: 66
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: popup_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Popup Image'
+          type: assets
+          icon: assets
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: column
+        field:
+          options:
+            Donate: null
+            Volunteer: null
+            Fundraise: null
+            Campaign: null
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Column
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: row
+        field:
+          options:
+            'Occasional Superhero': null
+            'Constant Champion': null
+            'Crowd Follower': null
+            'Benefit Seeker': null
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Row
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: colour
+        field:
+          options:
+            rose: Red
+            yellow: Yellow
+            green: Green
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Colour
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+title: 'Game Cells'

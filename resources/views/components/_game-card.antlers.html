@@ -1,0 +1,56 @@
+<div
+  class="flex-1"
+  x-data="{ hover: false, open: false }"
+>
+  <div class="relative h-0 pb-[100%]">
+    <div class="absolute inset-0 p-4">
+      <button
+        class="appearance-none block relative w-full h-full transition-all perspective-1000"
+        type="button"
+        @mouseenter="hover = true"
+        @mouseleave="hover = false"
+        {{ if popup_text }}@click="$dispatch('modal:open', { type: 'game', content: $refs.content.innerHTML })"{{ /if }}
+      >
+        <div
+          class="relative w-full h-full bg-white shadow-lg transition-all preserve-3d duration-500"
+          :class="{ 'flip-y-180' : hover }"
+        >
+          <div
+            class="flex absolute inset-0 backface-hidden"
+            x-ref="front"
+          >
+            <div class="m-auto p-4 text-center">
+              <p class="font-semibold typeset-label">{{ title }}</p>
+            </div>
+          </div>
+          <div
+            class="flex absolute inset-0 backface-hidden flip-y-180 {{ if colour }}bg-{{ colour }}{{ /if }}"
+            x-ref="back"
+          >
+            <div class="m-auto p-4 text-center">
+              <div>{{ back_text }}</div>
+              {{ if popup_text }}<div class="mt-2 text-0750 uppercase font-semibold opacity-50">Click for more</div>{{ /if }}
+            </div>
+          </div>
+        </div>
+        <div class="hidden">
+          <div x-ref="content">
+            <div class="flex p-4">
+              <div class="flex-1 p-4">
+                {{ popup_text | classify }}
+              </div>
+              {{ if popup_image }}
+                <div class="flex-1 p-4">
+                  <img
+                    class="block w-full"
+                    src="{{ glide:popup_image w="540" fit="crop_focal" q="90" }}"
+                  >
+                </div>
+              {{ /if }}
+            </div>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>

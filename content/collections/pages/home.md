@@ -3,9 +3,9 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_at: 1659705555
-download_text: 'Download 5 Golden Rules for Engaging Gen Z'
+updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
+updated_at: 1682327154
+download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
     type: paragraph
@@ -18,10 +18,10 @@ understand_text:
         marks:
           -
             type: bold
-        text: 'Mindsets of Generation Z'
+        text: 'Personas of Boomer Women'
       -
         type: text
-        text: ' towards charitable causes? Dive into their their needs, wants, and how best to target them.'
+        text: ' towards charitable causes? Dive into their needs, wants, and relationships with charities.'
   -
     type: paragraph
 plan_text:
@@ -30,13 +30,13 @@ plan_text:
     content:
       -
         type: text
-        text: "Do you need to create strategies and effective approaches for influencing behaviour at different stages of a Zoomer's involvement with your cause? Explore our "
+        text: "Do you need to create strategies and effective approaches for influencing behaviour at different stages of Boomer Women's involvement with your cause? Explore our "
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Generation Z Engagement Framework'
+        text: 'Boomer Women Engagement Framework'
       -
         type: text
         text: .
@@ -62,13 +62,12 @@ build_text:
     content:
       -
         type: text
-        text: 'Are you focused on innovating and developing new tactics and approaches designed to appeal most strongly to Generation Z and their attitudes towards charitable support? Be inspired by our '
+        text: 'Are you focused on innovating and developing new tactics and approaches designed to appeal most strongly to Boomer Women and their attitudes towards charitable support? Be inspired by our '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Generation Z Opportunity Areas. '
+        text: 'Boomer Women Opportunity Areas. '
 download: gen-z_tldr-summary.pdf
-published: true
 ---

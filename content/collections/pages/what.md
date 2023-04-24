@@ -4,8 +4,8 @@ blueprint: what
 template: what
 title: What
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_by: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_at: 1659897693
+updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
+updated_at: 1682328534
 text:
   -
     type: heading
@@ -17,13 +17,13 @@ text:
         marks:
           -
             type: bold
-        text: 'Introduction to Good Conversations: Gen Z Co-Creation Programme'
+        text: 'Introduction to Good Conversations: Boomer Women Co-Creation Programme'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "The Gen Z Co-creation Programme is the first of many immersive audience deep-dives we’re calling\_"
+        text: "The Boomer Women Co-creation Programme is the first of many immersive audience deep-dives we’re calling\_"
       -
         type: text
         marks:
@@ -32,9 +32,17 @@ text:
         text: 'Good Conversations'
       -
         type: text
-        text: '. These conversations are designed to offer charities a collaborative and cost effective opportunity to deeply engage with a key audience, while answering strategic questions and providing a forum to co-create actionable outputs that will have an impact across an organisation.The hybrid programme centred around an ‘always-on’ 3-month online co-creation community, with 100 carefully selected Zoomer participants, enriched by an immersive offline Inspiration Safari.'
+        text: ". These conversations are designed to offer charities a collaborative and cost effective opportunity to deeply engage with a key audience, while answering strategic questions and providing a forum to co-create actionable outputs that will have an impact across an organisation.The hybrid programme centred around an ‘always-on’ 3-month online co-creation community, with 50 carefully selected Boomer Women participants, enriched by immersive offline 'Fireside Chats'."
   -
     type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: '(HENRY TO PLEASE UPDATE BELOW BLURB AND ASSOCIATED MATERIALS)'
   -
     type: heading
     attrs:
@@ -98,5 +106,4 @@ text:
         text: 'Download the recruitment spec and Activity Plan below.'
 link_image: screen-shot-2022-08-07-at-7.40.35-pm.png
 link_entry: 'asset::assets::activity-plan-upload.pdf'
-published: true
 ---

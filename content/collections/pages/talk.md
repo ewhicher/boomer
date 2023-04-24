@@ -3,8 +3,8 @@ id: 0b47e3fa-8a89-473e-8a27-a5784fcda4c6
 blueprint: pages
 title: Talk
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_by: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_at: 1659704263
+updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
+updated_at: 1682327331
 text:
   -
     type: paragraph
@@ -17,7 +17,7 @@ text:
         text: 'What this is'
       -
         type: text
-        text: ": A Communications Cheat of actionable tactics and strategies designed to be executed in line with your Engagement Framework strategies. It covers: General\_ Gen Z Communications Principles, Tone of Voice, Facts & Figures, Showing Impact & Calls to Action (CTAs)"
+        text: ": A Communications Cheat of actionable tactics and strategies designed to be executed in line with your Engagement Framework strategies. It covers: General\_Boomer Women Communications Principles, Tone of Voice, and communication tactics for how best to drive engagement with Volunteering, Campaigning and Regular Giving."
   -
     type: paragraph
     content:
@@ -29,7 +29,13 @@ text:
         text: 'How to use it: '
       -
         type: text
-        text: "The tips included in the Cheat Sheet are designed to work in partnership with the Engagement Framework in order to influence behaviour change and the Mindsets of Gen Z. While each tip applies across the Gen Z audience, some are designed to place greater emphasis on influencing particular Gen Z Mindsets more than others.\_"
+        text: 'The tips included in the Cheat Sheet are designed to work in partnership with the Engagement Framework in order to influence behaviour change and the Personas of Boomer Women. While each tip applies across the Boomer Women audience, we encourage you to consider how these might be best adapted to suit specific personas within your communications tactics and targeting.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Hover over the image below to access the download.\_"
 link_text:
   -
     type: paragraph
@@ -42,5 +48,4 @@ next_button_link: 'entry::ff7b0866-9649-41d4-93ec-e6fde93168a8'
 next_button_text: 'Build page'
 link_entry: 'asset::assets::gen-z_comms-cheat-sheet_pdf-slides.pdf'
 link_image: screen-shot-2022-08-05-at-1.55.59-pm.png
-published: true
 ---

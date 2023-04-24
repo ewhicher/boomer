@@ -1,4 +1,29 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+editor:
+  title: Editor
+  permissions:
+    - 'access cp'
+    - 'view game entries'
+    - 'edit game entries'
+    - 'create game entries'
+    - 'delete game entries'
+    - 'publish game entries'
+    - 'reorder game entries'
+    - 'edit other authors game entries'
+    - 'publish other authors game entries'
+    - 'delete other authors game entries'
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'create pages entries'
+    - 'delete pages entries'
+    - 'publish pages entries'
+    - 'reorder pages entries'
+    - 'edit other authors pages entries'
+    - 'publish other authors pages entries'
+    - 'delete other authors pages entries'
+    - 'configure globals'
+    - 'view assets assets'
+    - 'upload assets assets'
+    - 'edit assets assets'
+    - 'move assets assets'
+    - 'rename assets assets'
+    - 'delete assets assets'

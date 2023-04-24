@@ -4,8 +4,8 @@ blueprint: understand
 template: understand
 title: Understand
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_by: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_at: 1659951070
+updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
+updated_at: 1682325941
 text:
   -
     type: paragraph
@@ -57,20 +57,19 @@ newsletters_text:
     content:
       -
         type: text
-        text: "Review the insight summary newsletters to grasp the big picture of understanding Generation Z and see some insights specific to your charity.\_"
+        text: "Review the insight summary newsletters to grasp the big picture of understanding Boomer Women.\_"
 game_text:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Put the Generation Z\_Mindsets to use with this interactive grid. See where your charity is already meeting their needs and explore what else you could do to engage them.\_"
+        text: "Put the Boomer Women Pen Portraits use with this interactive grid. See where your charity is already meeting their needs and explore what else you could do to engage them.\_"
 mindset_text:
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Understand your Generation Z audience by exploring the different mindsets Zoomers are likely to be in when engaging with charities.\_"
-published: true
+        text: "Understand your Boomer Women audience by exploring the different personas they are likely to embody when engaging with charities.\_"
 ---

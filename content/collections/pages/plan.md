@@ -4,7 +4,7 @@ blueprint: pages
 title: Plan
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682327223
+updated_at: 1682432277
 text:
   -
     type: paragraph
@@ -40,6 +40,6 @@ image: framework.png
 next_text: 'Explore your Communications Cheat Sheet to Zoomer-proof ways to TALK to GEN Z'
 next_button_link: 'entry::0b47e3fa-8a89-473e-8a27-a5784fcda4c6'
 next_button_text: 'TALK to GEN Z'
-link_image: screen-shot-2022-08-07-at-7.44.40-pm.png
-link_entry: 'asset::assets::blank.pdf'
+link_image: boomer-toolkit_engagement-model_final.jpg
+link_entry: 'asset::assets::boomer-women-toolkit_engagement-model_final-1682432226.pdf'
 ---

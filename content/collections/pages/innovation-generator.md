@@ -4,7 +4,7 @@ blueprint: game
 template: game
 title: 'Innovation Generator'
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682328894
+updated_at: 1682433719
 text:
   -
     type: heading
@@ -27,7 +27,7 @@ text:
         text: 'What this is:'
       -
         type: text
-        text: ' The grid helps you identify the best routes to engage each boomer Women Personas with volunteering, campaigning, regular giving and through Legacy & Wills. '
+        text: ' The grid helps you identify the best routes to engage each Boomer Women Personas with volunteering, campaigning, regular giving and through Legacy & Wills. '
   -
     type: paragraph
     content:
@@ -95,5 +95,5 @@ text:
         type: text
         text: " Hover over a block for a suggested engagement opportunity for that Persona. Where available 'Click for more'. Download the blank worksheet to help you conduct a gap analysis - you will identify existing opportunities and gaps in your portfolio for engaging Boomer Women. "
 download_text: 'Download worksheet here'
-download: build-something-new-for-gen-z-grid-game.pdf
+download: boomer-women-toolkit_innovation-generator-worksheet.pdf
 ---

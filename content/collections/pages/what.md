@@ -5,7 +5,7 @@ template: what
 title: What
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
 updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682421191
+updated_at: 1682434039
 text:
   -
     type: heading
@@ -164,5 +164,8 @@ text:
         text: 'Below is 1) our audience sample and overview of the topics covered & 2) Week by week activities'
   -
     type: paragraph
-link_image: summary-pack-boomer-women.pdf
+link_image: topic-overviews-1682433820.png
+link_entry: 'asset::assets::summary-pack-boomer-women-1682433985.pdf'
+link_image_two: topic-detail-1682434009.png
+link_entry_two: 'asset::assets::boomer-women-activity-plan---weeks-1-10.xlsx-1682434033.pdf'
 ---

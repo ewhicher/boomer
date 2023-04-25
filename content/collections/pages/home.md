@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682418957
+updated_at: 1682419066
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -21,7 +21,15 @@ understand_text:
         text: 'Personas of Boomer Women'
       -
         type: text
-        text: ' towards charitable causes? Dive into their needs, wants, and relationships with charities.'
+        text: ' towards charitable causes? '
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Dive into their needs, wants, and relationships with charities.'
   -
     type: paragraph
 plan_text:
@@ -30,7 +38,15 @@ plan_text:
     content:
       -
         type: text
-        text: "Do you need to create strategies and effective approaches for influencing behaviour at different stages of Boomer Women's involvement with your cause? Explore our "
+        text: "Do you need to create strategies and effective approaches for influencing behaviour at different stages of Boomer Women's involvement with your cause? "
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Explore our '
       -
         type: text
         marks:
@@ -46,7 +62,15 @@ talk_text:
     content:
       -
         type: text
-        text: 'Does your team focus on creating and executing persuasive messages and communications to drive actions? Dive into your '
+        text: 'Does your team focus on creating and executing persuasive messages and communications to drive actions? '
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Dive into your '
       -
         type: text
         marks:
@@ -78,12 +102,34 @@ build_text:
     content:
       -
         type: text
-        text: 'Are you focused on innovating and developing new tactics and approaches designed to appeal most strongly to Boomer Women and their attitudes towards charitable support? Be inspired by our '
+        text: 'Are you focused on innovating and developing new tactics and approaches designed to appeal most strongly to Boomer Women and their attitudes towards charitable support? '
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Be inspired by our '
       -
         type: text
         marks:
           -
             type: bold
         text: 'Boomer Women Opportunity Areas. '
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This is for everyone, but particularly for '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Innovation teams '
 download: gen-z_tldr-summary.pdf
 ---

@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682419287
+updated_at: 1682419308
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -97,10 +97,8 @@ talk_text:
       -
         type: text
         text: 'Does your team focus on creating and executing persuasive messages and communications to drive actions? '
-  -
-    type: paragraph
-  -
-    type: paragraph
+      -
+        type: hardBreak
   -
     type: paragraph
     content:

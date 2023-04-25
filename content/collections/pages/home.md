@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682419135
+updated_at: 1682419145
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -46,9 +46,9 @@ plan_text:
         text: "Do you need to create strategies and effective approaches for influencing behaviour at different stages of Boomer Women's involvement with your cause? "
   -
     type: paragraph
-  -
-    type: paragraph
     content:
+      -
+        type: hardBreak
       -
         type: hardBreak
   -

@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682419082
+updated_at: 1682419091
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -25,6 +25,8 @@ understand_text:
   -
     type: paragraph
     content:
+      -
+        type: hardBreak
       -
         type: hardBreak
   -

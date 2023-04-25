@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682418828
+updated_at: 1682418893
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -56,17 +56,18 @@ talk_text:
       -
         type: text
         text: ' to implement across your engagement strategy.'
-      -
-        type: hardBreak
-      -
-        type: text
-        text: ' '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'This is '
+        text: 'This is for everyone, but particularly for '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Communication teams '
 build_text:
   -
     type: paragraph

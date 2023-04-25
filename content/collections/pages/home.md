@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682422213
+updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
+updated_at: 1682432838
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -47,7 +47,7 @@ understand_text:
         marks:
           -
             type: bold
-        text: 'XXX teams'
+        text: 'Insight teams'
 plan_text:
   -
     type: paragraph
@@ -89,7 +89,7 @@ plan_text:
         marks:
           -
             type: bold
-        text: 'XXX teams'
+        text: 'Strategy teams'
 talk_text:
   -
     type: paragraph

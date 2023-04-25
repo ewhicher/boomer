@@ -42,6 +42,15 @@ sections:
           instructions_position: above
           visibility: visible
       -
+        handle: link_one
+        field:
+          display: 'Link One'
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: link_image
         field:
           width: 50
@@ -67,6 +76,15 @@ sections:
           display: 'Link entry'
           type: link
           icon: link
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: link_two
+        field:
+          display: 'Link Two'
+          type: section
+          icon: section
           listable: hidden
           instructions_position: above
           visibility: visible

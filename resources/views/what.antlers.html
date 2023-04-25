@@ -7,7 +7,7 @@
 <section class="pt-16 pb-8">
   <div class="wrap-lg px-4">
     <h1 class="typeset-title mb-[.5em]">
-      Introduction to <span class="text-red">Good Conversations</span>: Generation Z Co-Creation Programme 
+      Introduction to <span class="text-red">Good Conversations</span>: Boomer Women Co-Creation Programme 
     </h1>
   </div>
   <div class="wrap-lg px-4">
@@ -28,6 +28,31 @@
           @mouseleave="hover = false"
         >
           <img class="block relative z-10 w-full" src="{{ glide:link_image w="1280" q="80" }}">
+          <div
+            class="absolute inset-0 z-20 flex"
+            x-show="hover"
+            x-transition.opacity
+            x-cloak
+          >
+            <div class="absolute inset-0 bg-red opacity-40"></div>
+            <div class="m-auto">
+              <div class="btn-base btn-white">Download</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    {{ /if }}
+    {{ if link_entry_two }}
+      <div class="pb-8">
+        <a
+          class="block relative"
+          href="{{ link_entry_two }}"
+          target="_blank"
+          x-data="{ hover: false }"
+          @mouseenter="hover = true"
+          @mouseleave="hover = false"
+        >
+          <img class="block relative z-10 w-full" src="{{ glide:link_image_two w="1280" q="80" }}">
           <div
             class="absolute inset-0 z-20 flex"
             x-show="hover"

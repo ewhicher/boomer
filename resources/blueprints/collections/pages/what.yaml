@@ -44,6 +44,7 @@ sections:
       -
         handle: link_image
         field:
+          width: 50
           mode: grid
           container: assets
           restrict: false
@@ -59,6 +60,36 @@ sections:
       -
         handle: link_entry
         field:
+          width: 50
+          collections:
+            - pages
+          container: assets
+          display: 'Link entry'
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: link_image_two
+        field:
+          width: 50
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Link image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: link_entry_two
+        field:
+          width: 50
           collections:
             - pages
           container: assets

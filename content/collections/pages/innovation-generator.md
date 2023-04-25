@@ -4,7 +4,7 @@ blueprint: game
 template: game
 title: 'Innovation Generator'
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682433411
+updated_at: 1682433442
 text:
   -
     type: heading
@@ -27,7 +27,7 @@ text:
         text: 'What this is:'
       -
         type: text
-        text: ' The grid helps you identify the best routes to engage each boomer Women Personas with volunteering, campaigning, regular giving and through Legacy & Wills. '
+        text: ' The grid helps you identify the best routes to engage each Boomer Women Personas with volunteering, campaigning, regular giving and through Legacy & Wills. '
   -
     type: paragraph
     content:

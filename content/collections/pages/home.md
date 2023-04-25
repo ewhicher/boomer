@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: f5da65c5-8581-4220-8a3e-dde3774c8996
-updated_at: 1682419091
+updated_at: 1682419135
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -50,6 +50,11 @@ plan_text:
     type: paragraph
     content:
       -
+        type: hardBreak
+  -
+    type: paragraph
+    content:
+      -
         type: text
         text: 'Explore our '
       -
@@ -68,6 +73,8 @@ talk_text:
       -
         type: text
         text: 'Does your team focus on creating and executing persuasive messages and communications to drive actions? '
+  -
+    type: paragraph
   -
     type: paragraph
   -
@@ -108,6 +115,8 @@ build_text:
       -
         type: text
         text: 'Are you focused on innovating and developing new tactics and approaches designed to appeal most strongly to Boomer Women and their attitudes towards charitable support? '
+  -
+    type: paragraph
   -
     type: paragraph
   -

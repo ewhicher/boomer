@@ -6,6 +6,6 @@ column: Campaign
 row: 'Benefit Seeker'
 colour: rose
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682516539
+updated_at: 1682516567
 back_text: 'A contest for a creative campaign poster with a cash prize'
 ---

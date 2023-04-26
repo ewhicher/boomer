@@ -4,7 +4,7 @@ blueprint: newsletters
 template: newsletters
 title: Newsletters
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682514313
+updated_at: 1682514402
 newsletter_pdfs:
   - newsletters/fake-newsletter-one.pdf
 text:
@@ -28,6 +28,12 @@ text:
       -
         type: text
         text: "During the course of the programme, the Good Conversations team compiled and circulated regular insight summary newsletters so you could keep up to date in real-time with what's happening. "
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Use these to gain a general understanding of Boomer Women through a series of easily digestible, quick insights that we uncovered across a variety of the topics below.'
 newsletters:
   -
     id: dR0KENJR

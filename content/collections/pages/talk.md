@@ -4,7 +4,7 @@ blueprint: pages
 title: Talk
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682327331
+updated_at: 1682506513
 text:
   -
     type: paragraph
@@ -17,7 +17,7 @@ text:
         text: 'What this is'
       -
         type: text
-        text: ": A Communications Cheat of actionable tactics and strategies designed to be executed in line with your Engagement Framework strategies. It covers: General\_Boomer Women Communications Principles, Tone of Voice, and communication tactics for how best to drive engagement with Volunteering, Campaigning and Regular Giving."
+        text: ": A set of Communications Guidelines consisting of actionable tactics and strategies designed to be executed in line with your Engagement Framework strategies. It covers: General\_Boomer Women Communications Principles, Tone of Voice Guidelines, and communication tactics for how best to drive engagement with Volunteering, Campaigning and Regular Giving across our personas."
   -
     type: paragraph
     content:
@@ -29,7 +29,7 @@ text:
         text: 'How to use it: '
       -
         type: text
-        text: 'The tips included in the Cheat Sheet are designed to work in partnership with the Engagement Framework in order to influence behaviour change and the Personas of Boomer Women. While each tip applies across the Boomer Women audience, we encourage you to consider how these might be best adapted to suit specific personas within your communications tactics and targeting.'
+        text: 'The tips included in the Guidelines are designed to work in partnership with the Engagement Framework in order to influence behaviour change and the Personas of Boomer Women. While each tip applies across the Boomer Women audience, we encourage you to consider how these might be best adapted to suit specific personas within your communications tactics and targeting, and have provided templates at the end of the toolkit for you to take away and consider.'
   -
     type: paragraph
     content:
@@ -46,6 +46,6 @@ link_text:
 next_text: 'Use your engagement plans and tactics to Build Something New for GEN Z'
 next_button_link: 'entry::ff7b0866-9649-41d4-93ec-e6fde93168a8'
 next_button_text: 'Build page'
-link_entry: 'asset::assets::gen-z_comms-cheat-sheet_pdf-slides.pdf'
-link_image: screen-shot-2022-08-05-at-1.55.59-pm.png
+link_entry: 'asset::assets::boomer-women-toolkit_comms-guidelines_final.pdf'
+link_image: boomer-women-toolkit_comms-guidelines_cover.jpg
 ---

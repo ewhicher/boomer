@@ -67,7 +67,7 @@ sections:
           instructions_position: above
           visibility: visible
       -
-        handle: mindset_text
+        handle: personas_text
         field:
           always_show_set_button: false
           previews: true
@@ -88,12 +88,16 @@ sections:
           enable_input_rules: true
           enable_paste_rules: true
           antlers: false
-          display: 'Mindset Text'
+          display: 'Personas Text'
           type: bard
           icon: bard
           listable: hidden
           instructions_position: above
           visibility: visible
+          collapse: false
+          smart_typography: false
+          inline: false
+          remove_empty_nodes: false
   sidebar:
     display: Sidebar
     fields:

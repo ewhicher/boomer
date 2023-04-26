@@ -79,10 +79,10 @@ sections:
         handle: column
         field:
           options:
-            Donate: null
             Volunteer: null
-            Fundraise: null
             Campaign: null
+            'Regular Giving': null
+            'Legacy & Wills': null
           multiple: false
           clearable: false
           searchable: true
@@ -99,10 +99,10 @@ sections:
         handle: row
         field:
           options:
-            'Occasional Superhero': null
-            'Constant Champion': null
-            'Crowd Follower': null
-            'Benefit Seeker': null
+            'Freestyling Fatima': null
+            'Worried Wendy': null
+            'Stretched Sandra': null
+            'Established Emma': null
           multiple: false
           clearable: false
           searchable: true

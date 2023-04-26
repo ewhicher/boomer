@@ -4,8 +4,8 @@ blueprint: understand
 template: understand
 title: Understand
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
-updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682514743
+updated_by: 96e48eeb-bd6b-4dff-aa1b-5addd7845575
+updated_at: 1682522456
 text:
   -
     type: paragraph
@@ -65,7 +65,7 @@ game_text:
       -
         type: text
         text: "Put the Boomer Women Personas to use with this interactive grid. See where your charity is already meeting their needs and explore what else you could do to engage them.\_"
-mindset_text:
+personas_text:
   -
     type: paragraph
     content:

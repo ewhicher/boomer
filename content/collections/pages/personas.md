@@ -2,8 +2,8 @@
 id: cdd33b91-7640-441d-89b9-86ab1f552d46
 blueprint: pages
 title: Personas
-updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682521013
+updated_by: 96e48eeb-bd6b-4dff-aa1b-5addd7845575
+updated_at: 1682522394
 text:
   -
     type: paragraph

@@ -4,7 +4,7 @@ blueprint: game
 template: game
 title: 'Innovation Generator'
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682433719
+updated_at: 1682514526
 text:
   -
     type: heading
@@ -93,7 +93,13 @@ text:
         text: 'How to use it:'
       -
         type: text
-        text: " Hover over a block for a suggested engagement opportunity for that Persona. Where available 'Click for more'. Download the blank worksheet to help you conduct a gap analysis - you will identify existing opportunities and gaps in your portfolio for engaging Boomer Women. "
+        text: ' Hover over a block for a suggested engagement opportunity for that Persona. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Download the blank worksheet to help you conduct a gap analysis - you will identify existing opportunities and gaps in your portfolio for engaging Boomer Women. '
 download_text: 'Download worksheet here'
 download: boomer-women-toolkit_innovation-generator-worksheet.pdf
 ---

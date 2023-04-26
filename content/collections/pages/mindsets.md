@@ -3,7 +3,7 @@ id: cdd33b91-7640-441d-89b9-86ab1f552d46
 blueprint: pages
 title: Personas
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682328729
+updated_at: 1682520836
 text:
   -
     type: paragraph
@@ -47,6 +47,6 @@ link_text:
       -
         type: text
         text: 'Download PDF summary of all the mindsets'
-link_entry: 'asset::assets::understand-gen-z-mindsets.pdf'
-link_image: screen-shot-2022-08-06-at-12.00.46-pm.png
+link_entry: 'asset::assets::boomer-toolkit_pen-portraits_v1.pdf'
+link_image: boomer-toolkit_pen-portraits_cover.jpg
 ---

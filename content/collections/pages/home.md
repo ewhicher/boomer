@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682432838
+updated_at: 1682506646
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -112,7 +112,7 @@ talk_text:
         marks:
           -
             type: bold
-        text: 'Communications Cheat Sheet'
+        text: 'Communications Guidelines'
       -
         type: text
         text: ' to implement across your engagement strategy.'

@@ -5,7 +5,7 @@ template: understand
 title: Understand
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682328761
+updated_at: 1682514743
 text:
   -
     type: paragraph
@@ -57,7 +57,7 @@ newsletters_text:
     content:
       -
         type: text
-        text: "Review the insight summary newsletters to grasp the big picture of understanding Boomer Women.\_"
+        text: "Review 10 Chapters of easily digestible insight summary newsletters to grasp the big picture of understanding Boomer Women.\_"
 game_text:
   -
     type: paragraph

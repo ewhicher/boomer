@@ -10,12 +10,50 @@ sections:
           required: true
           validate:
             - required
-          display: 'Title'
+          display: Title
           instructions_position: above
           listable: hidden
           visibility: visible
           input_type: text
           antlers: false
+      -
+        handle: intro
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: Intro
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
         handle: understand_text
         field:
@@ -39,6 +77,34 @@ sections:
           enable_paste_rules: true
           antlers: false
           display: 'Understand Text'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: understand_footer_text
+        field:
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Understand Footer Text'
           type: bard
           icon: bard
           listable: hidden
@@ -73,6 +139,34 @@ sections:
           instructions_position: above
           visibility: visible
       -
+        handle: plan_footer_text
+        field:
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Understand Footer Text'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: talk_text
         field:
           always_show_set_button: false
@@ -95,6 +189,34 @@ sections:
           enable_paste_rules: true
           antlers: false
           display: 'Talk Text'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: talk_footer_text
+        field:
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Understand Footer Text'
           type: bard
           icon: bard
           listable: hidden
@@ -129,16 +251,45 @@ sections:
           instructions_position: above
           visibility: visible
       -
+        handle: build_footer_text
+        field:
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          display: 'Understand Footer Text'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: download_text
         field:
           type: text
-          required: true
           display: 'Download Text'
           instructions_position: above
           listable: hidden
           visibility: visible
           input_type: text
           antlers: false
+          validate:
+            - required
       -
         handle: download
         field:

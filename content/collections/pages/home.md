@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1682506646
+updated_by: 96e48eeb-bd6b-4dff-aa1b-5addd7845575
+updated_at: 1682629204
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -32,22 +32,6 @@ understand_text:
       -
         type: text
         text: 'Dive into their needs, wants, and relationships with charities.'
-      -
-        type: hardBreak
-      -
-        type: hardBreak
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This is for everyone, but particularly for '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Insight teams'
 plan_text:
   -
     type: paragraph
@@ -74,22 +58,6 @@ plan_text:
       -
         type: text
         text: .
-      -
-        type: hardBreak
-      -
-        type: hardBreak
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This is for everyone, but particularly for '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Strategy teams'
 talk_text:
   -
     type: paragraph
@@ -116,22 +84,6 @@ talk_text:
       -
         type: text
         text: ' to implement across your engagement strategy.'
-      -
-        type: hardBreak
-      -
-        type: hardBreak
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'This is for everyone, but particularly for '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Communication teams '
 build_text:
   -
     type: paragraph
@@ -155,10 +107,8 @@ build_text:
           -
             type: bold
         text: 'Boomer Women Opportunity Areas. '
-      -
-        type: hardBreak
-      -
-        type: hardBreak
+download: gen-z_tldr-summary.pdf
+understand_footer_text:
   -
     type: paragraph
     content:
@@ -170,6 +120,51 @@ build_text:
         marks:
           -
             type: bold
-        text: 'Innovation teams '
-download: gen-z_tldr-summary.pdf
+        text: 'Insight teams'
+plan_footer_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This is for everyone, but particularly for '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Strategy teams'
+talk_footer_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This is for everyone, but particularly for '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Communication teams '
+build_footer_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'This is for everyone, but particularly for '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Innovation teams'
+intro:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Welcome! Based on our 12-week online community and charity collaboration in 2023, this is a toolkit ready for you to ACTION! Select one of the boxes below so that your charity can better understand, engage and serve Boomer Women.'
 ---

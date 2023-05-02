@@ -2,8 +2,8 @@
 id: cdd33b91-7640-441d-89b9-86ab1f552d46
 blueprint: pages
 title: Personas
-updated_by: 96e48eeb-bd6b-4dff-aa1b-5addd7845575
-updated_at: 1682522394
+updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
+updated_at: 1683013673
 text:
   -
     type: paragraph
@@ -47,6 +47,6 @@ link_text:
       -
         type: text
         text: 'Download PDF summary of all the mindsets'
-link_entry: 'asset::assets::boomer-toolkit_pen-portraits_v1.pdf'
+link_entry: 'asset::assets::boomer-toolkit_pen-portraits_final.pdf'
 link_image: boomer-toolkit_pen-portraits_cover-1682521002.jpg
 ---

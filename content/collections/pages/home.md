@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: 96e48eeb-bd6b-4dff-aa1b-5addd7845575
-updated_at: 1682629204
+updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
+updated_at: 1683013466
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -107,7 +107,7 @@ build_text:
           -
             type: bold
         text: 'Boomer Women Opportunity Areas. '
-download: gen-z_tldr-summary.pdf
+download: boomer-tldr-summary-final.pdf
 understand_footer_text:
   -
     type: paragraph

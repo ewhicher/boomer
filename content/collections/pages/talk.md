@@ -4,7 +4,7 @@ blueprint: pages
 title: Talk
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1683014024
+updated_at: 1683031941
 text:
   -
     type: paragraph
@@ -17,7 +17,7 @@ text:
         text: 'What this is'
       -
         type: text
-        text: ": A set of Communications Guidelines consisting of actionable tactics and strategies designed to be executed in line with your Engagement Framework strategies. It covers: General\_Boomer Women Communications Principles, Tone of Voice Guidelines, and communication tactics for how best to drive engagement with Volunteering, Campaigning and Regular Giving across our personas."
+        text: ": A set of Communications Guidelines consisting of actionable tactics and strategies designed to be executed in line with your Engagement Framework strategies. It covers: General\_Boomer Women Communications Principles, Tone of Voice Guidelines, and communication tactics for how best to drive engagement with Volunteering, Campaigning and Regular Giving across our pen portraits."
   -
     type: paragraph
     content:

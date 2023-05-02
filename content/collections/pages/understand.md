@@ -5,7 +5,7 @@ template: understand
 title: Understand
 author: c86903d6-9b80-4790-8e74-fbbfa0774953
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1683031892
+updated_at: 1683032076
 text:
   -
     type: paragraph
@@ -71,5 +71,5 @@ personas_text:
     content:
       -
         type: text
-        text: "Understand your Boomer Women audience by exploring the different personas they are likely to embody when engaging with charities.\_"
+        text: "Understand your Boomer Women audience by exploring the different pen portraits they are likely to embody when engaging with charities.\_"
 ---

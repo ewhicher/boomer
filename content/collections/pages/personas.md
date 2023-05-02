@@ -1,9 +1,9 @@
 ---
 id: cdd33b91-7640-441d-89b9-86ab1f552d46
 blueprint: pages
-title: Personas
+title: 'Pen Portraits'
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1683015013
+updated_at: 1683031971
 text:
   -
     type: paragraph
@@ -16,7 +16,7 @@ text:
         text: 'What it is: '
       -
         type: text
-        text: 'A summary of 4 key personas we have identified within the Boomer Women audience. The role of them as parents, or not, their obligations and responsibilities towards their own parents, retirement and health status all come together to shape the different personas a Boomer Women may embody. '
+        text: 'A summary of 4 key pen portraits we have identified within the Boomer Women audience. The role of them as parents, or not, their obligations and responsibilities towards their own parents, retirement and health status all come together to shape the different personas a Boomer Women may embody. '
   -
     type: paragraph
     content:
@@ -28,7 +28,7 @@ text:
         text: 'How to use it: '
       -
         type: text
-        text: 'Use these Persona frameworks to understand how to target and interact with Boomer Women based on the experiences and decision-making strategies that may have shaped their lives and ambitions. '
+        text: 'Use these Pen Portrait frameworks to understand how to target and interact with Boomer Women based on the experiences and decision-making strategies that may have shaped their lives and ambitions. '
 next_text: 'Explore our Gen Z Game to put Mindsets into practice'
 next_button_link: 'entry::bbf4d56d-7cb6-49ac-a93d-f790a42c4f90'
 next_button_text: 'Grid Game'

@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: c0c42a60-c53a-4383-bca5-73b0b060cca0
-updated_at: 1683013466
+updated_at: 1683031923
 download_text: 'Download 5 Golden Rules for Engaging Boomer Women'
 understand_text:
   -
@@ -12,13 +12,13 @@ understand_text:
     content:
       -
         type: text
-        text: 'Does your team need to understand and build out insights rooted in the '
+        text: 'Does your team need to understand and build out insights rooted in our '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Personas of Boomer Women'
+        text: 'Pen Portraits of Boomer Women'
       -
         type: text
         text: ' towards charitable causes? '
